@@ -245,7 +245,7 @@ def selectBestFilePDBFasta (d_PDB, result_align, substruct) :
                     return 
         
         # control substructure presented // case identity 100%
-        nb_chain = len (d_PDB["p_pdb_chain"])
+        nb_chain = len (d_PDB["p_fasta_chain"])
         i = 0
         while i < nb_chain : 
             l_ligand = parsePDB.retrieveListLigand(d_PDB["p_pdb_chain"][i])
