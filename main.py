@@ -611,7 +611,7 @@ presult = "/home/buhan/Desktop/myproject/" # need to change
 # to download the all PDB database
 # downloadPDB (pPDB)
 #resultLigandInPDB
-# managePDB.searchLigands(pPDB, presult)
+managePDB.searchLigands(pPDB, presult)
 
 # constante
 thresold_RX = 2.7
