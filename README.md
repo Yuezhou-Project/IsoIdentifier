@@ -72,6 +72,7 @@ l_ligand_out = ["AMP", "ADP", "ATP", "ACP", "AD9", "NAD", "AGS", "U5P", "UDP","U
 - histogramsRMSD.R
 - barplotQuantity.R
 - piePlot.R
+- piePlot_count.R
 
 ### Paths management ###
 ########################
