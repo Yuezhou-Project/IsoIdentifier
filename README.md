@@ -52,12 +52,12 @@ Python (3.6) modules:
 - tool.py: tool box functions
 - writePDBfile.py: write pdb files
 
-- main.py: MAIN with parameters l.574
+- main.py: MAIN with parameters
 
 thresold_RX = 2.7: minimal structure resolution
 thresold_BS = 4.5: distance threshold to define the binding site from ligand
 thresold_blast = 1e-100: threshold blast
-thresold_superimposed_pi = 2.5: distance threshold to extract LSR from ligand
+thresold_superimposed_ribose = 2.5: distance threshold to extract LSR from ligand
 thresold_IDseq = 100: threshold identity sequence for similar PDB
 thresold_shaep = 0.2: threshold of shaep overlap
 l_ligand_out = ["AMP", "ADP", "ATP", "ACP", "AD9", "NAD", "AGS", "U5P", "UDP","UTP", "APC", "C5P","CDP","CTP", "AOV", "ANP","5GP", "GDP", "GTP", "ANP"]: list of ligand not considered
