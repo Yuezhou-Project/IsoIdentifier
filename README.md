@@ -20,6 +20,7 @@ Python (3.6) modules:
 - subprocess
 - numpy
 - biopython (Bio.blast)
+- nams
 - shutil
 - urllib
 - math
